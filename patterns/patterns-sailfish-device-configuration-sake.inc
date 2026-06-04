@@ -14,8 +14,11 @@ Requires: patterns-sailfish-device-tools
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
+# SMS fix
+Requires: fake-qcrilmsgtunnel
 # For multi-SIM devices
 Requires: jolla-settings-networking-multisim
+Requires: fake-qcrilmsgtunnel-sim2
 Requires: jolla-settings-system-flashlight
 
 # For devices which support NFC
